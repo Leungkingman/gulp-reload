@@ -16,8 +16,14 @@
 
   gulp官方网站：http://www.gulpjs.com.cn
   
-  输入命令行“npm install -g gulp”，回车。安装成功之后打开您的项目的根目录，按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev gulp”，回车。
+  输入命令行“npm install -g gulp”，回车。安装成功之后打开您的项目的根目录，创建一个文件夹并命名为“node_modules”，然后按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev gulp”，回车。
   
-  这时候您已经在该项目配置好gulp的开发环境了，但离实现同步刷新，还需要做多几个步骤。
+  这时候您已经在该项目配置好gulp的开发环境了，你会看见node_modules下面多了两个文件夹（.bin和gulp），但离实现同步刷新，还需要做多几个步骤。
   
-### 3.安装Browers-sync插件
+### 3.安装Browser-sync插件
+
+  Browser-sync可以作为gulp工作流的一个插件
+  
+  Browser-sync官方网站：http://www.browsersync.cn/
+  
+  打开项目根目录，按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev browser-sync”，回车。安装Browser-sync。安装成功之后，node_modules下面也会多了一个名为browser-sync的文件夹。
