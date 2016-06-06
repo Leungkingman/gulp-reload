@@ -16,7 +16,9 @@
 
   gulp官方网站：http://www.gulpjs.com.cn
   
-  输入命令行“npm install -g gulp”，回车。安装成功之后打开您的项目的根目录，创建一个名为gulpfile.js的js文件，再创建一个文件夹并命名为“node_modules”，然后按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev gulp”，回车。
+  输入命令行“npm install -g gulp”，回车。安装成功之后打开您的项目的根目录，创建一个名为gulpfile.js的js文件，再创建一个文件夹并命名为“node_modules”。
+  
+  然后按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev gulp”，回车。（该步骤双击文件中的“一键安装gulp.bat”程序进行安装）
   
   这时候您已经在该项目配置好gulp的开发环境了，你会看见node_modules下面多了两个文件夹（.bin和gulp），但离实现同步刷新，还需要做多几个步骤。
   
@@ -26,13 +28,14 @@
   
   Browser-sync官方网站：http://www.browsersync.cn/
   
-  打开项目根目录，按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev browser-sync”，回车。安装Browser-sync。安装成功之后，node_modules下面也会多了一个名为browser-sync的文件夹。
+  打开项目根目录，按住shift点击右键，选择“在此处打开命令窗口”，然后在命令窗口输入“npm install --save-dev browser-sync”，回车。（该步骤双击文件中的“一键安装Browser-sync.bat”程序进行安装）
   
+  安装Browser-sync。安装成功之后，node_modules下面也会多了一个名为browser-sync的文件夹。
   
   
   这时候，开发环境已经搭建完毕了。剩下的，您想创建一个怎样的工作流，都可以在gulpfile.js里写脚本创建。具体的代码我已经写好了，你们下载代码来看看就明白了。里面也有详细的注释。
   
-  构建好工作流之后，在项目根目录打开命令行窗口输入"gulp"，回车。等待一下就会自动启动浏览器。
+  构建好工作流之后，在项目根目录打开命令行窗口输入"gulp"，回车（或运行文件中的“打开gulp.bat”）。等待一下就会自动启动浏览器。
   
   工欲善其事必先利其器，gulp的强大远远不止于此，他还能帮助我们实现很多工作，免去我们开发过程中一些繁琐的事，期待大家共同参与。
   
